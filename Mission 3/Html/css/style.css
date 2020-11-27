@@ -1,0 +1,215 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+#home{
+    background-image: url("../css/anime-crossover-poster-fond-d-ecran-3840x1200-45686_62.jpg");
+}
+#profil{
+    background-color: #141414;
+}
+nav{
+    background-color: transparent;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.nav-bar a{
+    margin-left: 10px;
+    font-weight: 400;
+    transition: all 3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all 3s;
+    -ms-transition: all 3s;
+    -o-transition: all 3s;
+}
+.nav-bar a:hover{
+    border-bottom: 2px solid #fff;
+}
+form{
+    background-color:rgba(0, 0, 0, .75);
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    color: #fff;  
+}
+input{
+   padding: 16px 20px;
+   margin: 5px 0;
+   border: none;
+   border-radius: 4px;
+   background-color: #333;
+   font-size: 16px;
+   color: #fff;
+   -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+   -ms-border-radius: 4px;
+   -o-border-radius: 4px;
+   outline: none;
+   opacity: .8;
+}
+input[type=submit]{
+    background-color: red;
+    margin-left: 700;
+    text-transform: uppercase;
+}
+input[type=submit]:hover{
+    background-color:rgb(173, 7, 15);
+    cursor: pointer;
+}
+input[type=email]:focus, 
+input[type=password]:focus,
+input[type=email]:hover, 
+input[type=password]:hover
+{
+    opacity: 1;
+    background-color: rgb(34, 34, 34);
+}
+label{
+    color: #ffffff;
+    margin-left: 10px;
+}
+p{
+    color: #737373
+}
+a{
+    color: #ffffff;
+}
+.content{
+    margin: 0 10%;
+    margin-top: 60px;}
+.row{
+    display: flex;
+    justify-content: center;
+}
+#profil-page,
+#film-page{
+    background-color: #141414;
+}
+nav img{
+    width: 150px;
+}
+h1{
+    color: #ffffff;
+    font-size: 3em;
+}
+.profil img{
+    border: 2px solid transparent;
+    width: 90%;
+
+}
+.profil img,
+.profil p{
+    border: 2px solid transparent;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+.profil:hover img{
+    border: 2px solid #fff;
+}
+.profil:hover p{
+    color: #ffffff;
+}
+a {
+    text-decoration: none;
+}
+.btn{
+    text-transform: uppercase;
+    border: 1px solid #8080;
+    padding: .5em 1.5em;
+    color: #808080;
+    margin-top: 50px;
+    font-size: .9em;
+    transition: all.3s;
+    -webkit-transition: all.3s;
+    -moz-transition: all.3s;
+    -ms-transition: all.3s;
+    -o-transition: all.3s;
+}
+.btn:hover{
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+.space-between{
+    justify-content: space-between;
+}
+video{
+    width: 100%;
+}
+#video{
+    height: 600px;
+    overflow: hidden;
+}
+#film-page nav{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9;
+}
+h2{
+    color: #ffffff;
+}
+#films-page .row{
+    margin-top: 10px;
+}
+#films-page .content{
+    margin-top: 10px;
+}
+.row div{
+    width: 100%;
+}
+.pl-5{
+    padding-left: 50px;
+}
+button{
+    background-color: rgba(51, 51, 51, .8);
+    border: none;
+    color: #fff;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+button i{
+    margin-right: 5px;
+}
+button:hover{
+    background-color: rgba(51, 51, 51, .1);
+    cursor: pointer;
+}
+#mission3{
+    box-sizing: content-box;
+    background-color:#141414a9;   
+    
+}
+fieldset{
+    display: contents;
+    margin-inline-start: 12px;
+    margin-inline-end: 12px;
+    padding-block-start: 0.35em;
+    padding-inline-start: 0.75em;
+    padding-inline-end: 0.75em;
+    padding-block-end: 0.625em;
+    min-inline-size: min-content;
+    border-width: 2px;
+    border-style: groove;
+    border-color: transparent;
+    border-image: initial
+}
